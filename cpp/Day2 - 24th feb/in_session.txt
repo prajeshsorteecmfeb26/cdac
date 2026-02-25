@@ -1,0 +1,4 @@
+try
+void, char, string
+pointer stores the address of another variable.
+int &n = num; in left means reference and if it is in right then address of variable.
