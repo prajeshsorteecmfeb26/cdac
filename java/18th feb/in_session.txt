@@ -1,0 +1,26 @@
+static classes, method and variable can be created.
+
+static block - initialize static variables
+instance block - initialize instance variables
+static->instance->constructor execution path.
+constructors are at instance level.
+
+static variables can be accessed anywhere but instance variable can not be accessed in the static block.
+
+maintain your errors.
+
+in class - variables
+	   methods
+	   constructors
+	   static block
+	   instance block
+
+I i define a method with more names and different parameters called as method overloading.
+And same for the constructor.
+
+polymorphism - same name different parameters, compile time polymorphism, static binding.
+when parameter_names and instance variable names are same use this keyword.
+
+selection - 
+if-else
+switch - case and default both are optional.

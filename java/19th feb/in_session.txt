@@ -1,0 +1,20 @@
+we can not write break inside if else
+lectures R and D in Lab.
+Dry run on your code.
+
+int i=0;
+while(i<5){
+	int j= 0;
+	while(j<5){
+		System.out.println("while loop "+ i+ " " + j);
+		j++;
+	}
+i++;
+}
+
+int arr[] = {1,2,3,4,5};
+int arr[] = new int[];  
+import java.lang.object here object is the parent class of all the classes.
+object names stored in stack and new Student() stored in heap area of JVM.
+referenced variable/s1 will be saved in stack.
+access modifiers, package, memory, array, String.

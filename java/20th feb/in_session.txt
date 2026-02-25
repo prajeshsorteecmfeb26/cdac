@@ -1,0 +1,16 @@
+public - all access
+private - in class only
+protected - in inherited class only 
+default - with the package only
+
+import packA.Library;
+import must be after package statement;
+this(); can be used only one time in constructor.
+super() applied to parent class constructor.
+constructor chaining;
+access modifiers applicable to properties, behaviours and classes.
+String is a class and non primitive datatype and they are immutable.
+reference means it is checking memory location not the value.
+String.equals() check content also.
+string constant pool is only one inside HEAP memory.
+stringbuilder vs stringbuffer 

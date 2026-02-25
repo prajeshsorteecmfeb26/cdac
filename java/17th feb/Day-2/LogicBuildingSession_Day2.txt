@@ -1,0 +1,49 @@
+Java version Features 
+Difference between c, c++ and Java
+----------------------------------
+1.platform dependency 
+2. OOP - java 
+    c - PO	
+   c++ mix of both
+3. memory mgmt	
+4. pointers 
+5. multiple inheritance
+6. op operloading
+7. security
+8. machine code vs byte code ( .class file )
+9. multithread
+10. union and structure in c & C++
+----------------------------------------------------
+
+
+dataTypes - 
+
+type casting ---- converting one datatype to another dt
+-------------------------------------
+Variable type
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+--------------------------------
+Constructors 
+Methods
+Objects creation
+Static block 
+Instance block

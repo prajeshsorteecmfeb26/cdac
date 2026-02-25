@@ -1,0 +1,15 @@
+java versions 1.8, 11 - may asked in an interview version specific features.
+
+type casting : implicit casting and explicit casting.
+In case of primitives you declare and define it.
+like int u and u = 10;
+
+booleans in java only true and false not 0 or 1.
+
+function overloading and overwriting.
+
+if no constructor provided then by default it takes values.It is not necessary that class should have a constructor.
+jvm gives us constructor when no constructor defined.
+
+constructors are used to initiate the instance variables like id, age, marks, name.
+read about - this, super, overriding constructors.function overloading, statements in java, loops in java.
