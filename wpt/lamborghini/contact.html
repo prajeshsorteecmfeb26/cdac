@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Website</title>
+<link rel="icon" href="images/icons8-lamborghini-96.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+<div class="logo">
+<img src="images/icons8-lamborghini-96.png" alt="Logo">
+</div>
+
+<nav id="navbar">
+<ul>
+<li><a href="index.html">Home</a></li>
+
+<li class="dropdown">
+<a href="#">Services ▼</a>
+<ul class="dropdown-menu">
+<li><a href="#">Web Design</a></li>
+<li><a href="#">Development</a></li>
+<li><a href="#">Support</a></li>
+</ul>
+</li>
+
+<li><a href="about.html">About</a></li>
+<li><a href="signup.html">Sign Up</a></li>
+<li><a href="signin.html">Sign In</a></li>
+<li><a href="contact.html">Contact</a></li>
+</ul>
+</nav>
+
+<div class="menu-icon" onclick="toggleMenu()">☰</div>
+</header>
+
+<marquee class="scroll-text">
+Welcome to our website
+</marquee>
+
+<section class="form-section">
+<h2>Contact Us</h2>
+<form>
+<input type="text" placeholder="Name">
+<input type="email" placeholder="Email">
+<textarea placeholder="Message"></textarea>
+<button class="btn">Send →</button>
+</form>
+</section>
+
+<footer>
+<p>Contact: info@email.com</p>
+<p>© 2026 My Website</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

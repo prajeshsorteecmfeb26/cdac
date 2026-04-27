@@ -1,0 +1,141 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: Arial;
+}
+
+body {
+    background-image: url('images/lambo.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed
+}
+
+header {
+position: fixed;
+top: 0;
+width: 100%;
+background: #222;
+color: white;
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 10px 20px;
+z-index: 1000;
+}
+
+.logo img {
+height: 40px;
+}
+
+nav ul {
+list-style: none;
+display: flex;
+}
+
+nav ul li {
+position: relative;
+}
+
+nav ul li a {
+color: white;
+padding: 10px 15px;
+display: block;
+text-decoration: none;
+}
+
+nav ul li a:hover {
+background: #ff6600;
+}
+
+.dropdown-menu {
+display: none;
+position: absolute;
+background: #333;
+top: 40px;
+}
+
+.dropdown:hover .dropdown-menu {
+display: block;
+}
+
+.btn {
+background: #ff6600;
+color: white;
+padding: 10px 20px;
+border: none;
+cursor: pointer;
+margin-top: 10px;
+}
+
+.btn:hover {
+background: black;
+}
+
+.home,
+.content,
+.form-section {
+padding-top: 100px;
+text-align: center;
+margin: 40px;
+color: white
+}
+
+form input,
+textarea {
+display: block;
+width: 80%;
+margin: 10px auto;
+padding: 10px;
+}
+
+footer {
+background: black;
+color: white;
+text-align: center;
+padding: 20px;
+margin-top: 200px;
+}
+
+.social-links {
+    color: white;
+    text-align: center
+}
+
+
+
+.scroll-text {
+background: #ff6600;
+color: white;
+padding: 5px;
+margin-top: 60px;
+}
+
+.menu-icon {
+display: none;
+font-size: 28px;
+cursor: pointer;
+}
+
+@media (max-width: 768px) {
+
+nav ul {
+display: none;
+flex-direction: column;
+background: #222;
+position: absolute;
+top: 60px;
+right: 0;
+}
+
+nav ul.show {
+display: flex;
+}
+
+.menu-icon {
+display: block;
+}
+
+}
