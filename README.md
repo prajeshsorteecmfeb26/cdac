@@ -23,7 +23,7 @@ The repository is organized into modules and projects for easy navigation:
 │   └── Data_Structure/   # Searching algorithms, sorting algorithms
 │   └── Web_Technologies  # HTML, CSS, JavaScript, and backend frameworks
 
-├── 02_Projects/             # Live Academic Projects
+├── Projects/             # Live Academic Projects
 │   └── College-Management/  # College Management System source code & docs
 │
 ├── .gitignore               # Files excluded from version control
