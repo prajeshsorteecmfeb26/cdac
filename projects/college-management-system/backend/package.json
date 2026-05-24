@@ -1,0 +1,28 @@
+{
+  "name": "crud-apis",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "db:init": "node src/db/init-db.js",
+    "admins:reset": "node src/scripts/reset-admins.js",
+    "students:reset-passwords": "node src/scripts/reset-all-student-passwords.js",
+    "credentials:export": "node src/scripts/export-credentials.js",
+    "credentials:pdf": "node src/scripts/export-credentials-pdf.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3",
+    "mysql2": "^3.22.3",
+    "pdfkit": "^0.18.0"
+  }
+}

@@ -1,0 +1,152 @@
+:root {
+  --text: #1f2937;
+  --text-muted: #4b5563;
+  --text-h: #0b1220;
+  --bg: #ffffff;
+  --app-bg: #f1f5f9;
+  --surface: #ffffff;
+  --border: #d7dbe3;
+  --code-bg: #f4f3ec;
+  --accent: #0284c7;
+  --accent-bg: rgba(2, 132, 199, 0.1);
+  --accent-border: rgba(2, 132, 199, 0.5);
+  --social-bg: rgba(244, 243, 236, 0.5);
+  --shadow:
+    rgba(0, 0, 0, 0.1) 0 10px 15px -3px, rgba(0, 0, 0, 0.05) 0 4px 6px -2px;
+
+  --sans: system-ui, 'Segoe UI', Roboto, sans-serif;
+  --heading: system-ui, 'Segoe UI', Roboto, sans-serif;
+  --mono: ui-monospace, Consolas, monospace;
+
+  font: 18px/145% var(--sans);
+  letter-spacing: 0.18px;
+  color-scheme: light;
+  color: var(--text);
+  background: var(--bg);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  @media (max-width: 1024px) {
+    font-size: 16px;
+  }
+}
+
+/* Light theme only (ignore OS dark mode). */
+
+body {
+  margin: 0;
+  background-color: var(--app-bg);
+  color: var(--text);
+}
+
+#root {
+  width: 100%;
+  max-width: none;
+  margin: 0 auto;
+  text-align: left;
+  border-inline: none;
+  min-height: 100svh;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+h1,
+h2 {
+  font-family: var(--heading);
+  font-weight: 500;
+  color: var(--text-h);
+}
+
+h1 {
+  font-size: 56px;
+  letter-spacing: -1.68px;
+  margin: 32px 0;
+  @media (max-width: 1024px) {
+    font-size: 36px;
+    margin: 20px 0;
+  }
+}
+h2 {
+  font-size: 24px;
+  line-height: 118%;
+  letter-spacing: -0.24px;
+  margin: 0 0 8px;
+  @media (max-width: 1024px) {
+    font-size: 20px;
+  }
+}
+p {
+  margin: 0;
+  color: var(--text-muted);
+}
+
+code,
+.counter {
+  font-family: var(--mono);
+  display: inline-flex;
+  border-radius: 4px;
+  color: var(--text-h);
+}
+
+code {
+  font-size: 15px;
+  line-height: 135%;
+  padding: 4px 8px;
+  background: var(--code-bg);
+}
+
+/* Bootstrap-friendly visibility tweaks */
+.container,
+.container-fluid {
+  padding-bottom: 24px;
+}
+
+.alert {
+  border: 1px solid var(--border);
+}
+
+.table {
+  background: var(--surface);
+  border-color: var(--border);
+}
+
+.table thead th {
+  color: var(--text-h);
+  font-weight: 600;
+}
+
+.table td,
+.table th {
+  vertical-align: middle;
+}
+
+.modal-content {
+  background: var(--surface);
+  color: var(--text);
+  border-color: var(--border);
+}
+
+.form-label {
+  color: var(--text-h);
+  font-weight: 600;
+}
+
+.form-control,
+.form-select {
+  background: var(--surface);
+  color: var(--text);
+  border-color: var(--border);
+}
+
+.form-control::placeholder {
+  color: color-mix(in srgb, var(--text-muted) 80%, transparent);
+}
+
+.form-control:focus,
+.form-select:focus {
+  border-color: color-mix(in srgb, var(--accent) 65%, var(--border));
+  box-shadow: 0 0 0 0.2rem color-mix(in srgb, var(--accent) 20%, transparent);
+}
